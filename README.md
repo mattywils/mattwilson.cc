@@ -1,2 +1,2 @@
 # mattwilson.cc
-My website: http://www.mattwilson.cc
+My super simple landing page: http://www.mattwilson.cc
