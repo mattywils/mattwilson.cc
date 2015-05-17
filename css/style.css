@@ -5,7 +5,12 @@
 }
 
 body {
-	background-image: url('../img/footer_lodyas.png');
+	/*background-image: url('../img/footer_lodyas.png');*/
+	background-image: url('../img/Matt-Wilson.jpg');
+	background-position: bottom right;
+	background-repeat: none;
+	background-color: #4b3e39;
+	background-size: cover;
 	border-left: 4px solid #e6c81e;
 	font-family: 'Open Sans', sans-serif;
 	vertical-align: middle;
