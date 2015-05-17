@@ -1,0 +1,106 @@
+/* Global - - - - - - - - - - - - - - - - - - */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url('../img/footer_lodyas.png');
+	border-left: 4px solid #e6c81e;
+	font-family: 'Open Sans', sans-serif;
+	vertical-align: middle;
+}
+
+
+
+/* Typography - - - - - - - - - - - - - - - - - - */
+h1 {
+	color: #f25a29;
+	font-size: 44px;
+	font-weight: 800;
+}
+
+h2 {
+	color: #f25a29;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+p {
+	color: #e6c81e;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+a {
+	color: #e6c81e;
+	text-decoration: none;
+
+	-webkit-transition: color 250ms ease-out;
+    -moz-transition: color 250ms ease-out;
+    -o-transition: color 250ms ease-out;
+    transition: color 250ms ease-out;
+}
+
+a:hover {
+	color: #f25a29;
+}
+
+
+/* Structure - - - - - - - - - - - - - - - - - - */
+.container {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.row {
+	display: table-row;
+}
+
+.arrow {
+	float: left;
+	padding: 18px 0;
+}
+
+hr {
+	border: none;
+	border-bottom: 1px solid #f25a29;
+	margin: 25px 0;
+	width: 125px;
+}
+
+.content {
+	padding: 0 20px 0 75px;
+}
+
+.logo {
+	padding: 75px;
+	width: 66px;
+}
+
+
+/* List Structure - - - - - - - - - - - - - - - - - - */
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	float: left;
+	list-style: none;
+	padding: 10px;
+}
+
+li:first-child {
+	padding-left: 0;
+}
+
+li:last-child {
+	padding-right: 0;
+}
