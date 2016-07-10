@@ -1,0 +1,27 @@
+<header>
+  <a href="#">
+    <img src="{{ "/images/matt-wilson-logo.svg" | prepend: site.github.url }}" />
+    <div class="logoText">
+      <h1>Matt Wilson</h1>
+      <small>Est. 1990 ~ Louisville, Ky</small>
+    </div>
+  </a>
+  <nav>
+    <ul>
+      {% assign currentPage = page %}
+      {% for page in site.pages %}
+
+        {% if page.layout == "page" %}
+
+          {% if page.url == currentPage.url %}
+            {% assign class = "active" %}
+          {% endif %}
+
+          <li class="{{ class }}"><a href="{{ page.url }}">{{ page.title }}</a></li>
+
+        {% endif %}
+
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
